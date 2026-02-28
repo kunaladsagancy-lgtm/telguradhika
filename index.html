@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>రాధిక - ప్రైవేట్ చాట్ 💋</title>
+<title>రాధిక - Private Chat</title>
 
-<!-- Meta Pixel Code -->
+<!-- Meta Pixel -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -24,50 +24,66 @@ fbq('track', 'PageView');
 <style>
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #fff0f5;
+  font-family: system-ui, Arial;
+  background: #f5f5f5;
   text-align: center;
 }
+
 .container {
+  max-width: 400px;
+  margin: auto;
+  background: white;
   padding: 20px;
+  margin-top: 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
+
 img {
   width: 100%;
-  max-width: 350px;
-  border-radius: 12px;
-}
-h1 {
-  color: #e60073;
-}
-p {
-  font-size: 18px;
-}
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 15px 25px;
-  font-size: 20px;
-  color: white;
-  background: #ff0066;
-  border-radius: 8px;
-  text-decoration: none;
-}
-.btn:hover {
-  background: #cc0052;
-}
-.fake-chat {
-  background: white;
-  padding: 15px;
   border-radius: 10px;
-  margin-top: 20px;
 }
-.msg {
+
+h1 {
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+p {
+  color: #444;
+  font-size: 16px;
+}
+
+.chat {
   text-align: left;
-  margin: 10px 0;
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
 }
+
+.msg {
+  margin: 8px 0;
+}
+
 .name {
   font-weight: bold;
-  color: #ff0066;
+  color: #e91e63;
+}
+
+.btn {
+  display: block;
+  margin-top: 20px;
+  padding: 14px;
+  font-size: 18px;
+  background: #e91e63;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background: #c2185b;
 }
 </style>
 
@@ -77,26 +93,27 @@ p {
 
 <div class="container">
 
-<h1>నేను రాధిక 💋</h1>
+<img src="https://i.postimg.cc/8PpG8B2f/girl.jpg" alt="Radhika">
 
-<img src="https://i.imgur.com/1X6FQ9M.jpg" alt="Radhika">
+<h1>నేను రాధిక</h1>
 
-<p>నేను ఇప్పుడు ఒంటరిగా ఉన్నాను 😘  
-ప్రైవేట్ చాట్ చేయాలనుకుంటున్నాను...  
-నువ్వు వస్తావా? 🔥</p>
+<p>
+నేను ప్రస్తుతం ఆన్లైన్‌లో ఉన్నాను.  
+ప్రైవేట్‌గా మాట్లాడాలి అనుకుంటే క్రింద క్లిక్ చేయండి.
+</p>
 
-<div class="fake-chat">
-  <div class="msg"><span class="name">రాధిక:</span> హాయ్ 😘</div>
-  <div class="msg"><span class="name">రాధిక:</span> ఎక్కడ ఉన్నావు?</div>
-  <div class="msg"><span class="name">రాధిక:</span> నేను వెయిట్ చేస్తున్నాను 💋</div>
+<div class="chat">
+  <div class="msg"><span class="name">రాధిక:</span> హాయ్</div>
+  <div class="msg"><span class="name">రాధిక:</span> మీరు ఎక్కడ ఉన్నారు?</div>
+  <div class="msg"><span class="name">రాధిక:</span> నేను ఎదురు చూస్తున్నాను</div>
 </div>
 
-<a href="https://t.me/+jkhy3trQLqRlOTI1" class="btn" onclick="trackClick()">ఇక్కడ క్లిక్ చేసి జాయిన్ అవ్వండి 🔥</a>
+<a href="https://t.me/+jkhy3trQLqRlOTI1" class="btn" onclick="trackLead()">చాట్ ప్రారంభించండి</a>
 
 </div>
 
 <script>
-function trackClick() {
+function trackLead() {
   fbq('track', 'Lead');
 }
 </script>
